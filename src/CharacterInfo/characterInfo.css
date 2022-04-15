@@ -1,0 +1,34 @@
+.characterInfo{background-color: rgba(255, 0, 0, 0.247);
+    width: 500px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 50px;
+border: 2px solid black;}
+
+
+.writtenInfo{
+    background-color: rgba(0, 0, 0, 0.733);
+    box-shadow: 0px 0px 10px black;
+    color: white;
+    width:auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-left: 5px;
+padding-right: 5px;
+border: 2px solid black;}
+
+.characterImage{max-width: 200px;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    }
+    
+
+    .characterInfoDescript{color:red};
+    

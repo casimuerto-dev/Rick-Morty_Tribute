@@ -1,0 +1,26 @@
+.selectionContainer{background-color: white;
+    width: 99.5%;
+    height: 50px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+border: 2px solid black;
+}
+
+
+
+.lol{background-color: gray;
+    text-align: center;
+width: 80px;
+height: 25px;
+border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+    color:white;  
+
+}
+
+
+    .lol:hover{cursor: pointer;
+    background-color:rgb(63, 63, 50);}
+    
+    .lol:active{box-shadow: none;}
