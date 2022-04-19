@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Rick-Morty_Tribute/static/css/main.bdd3624d.css",
-    "main.js": "/Rick-Morty_Tribute/static/js/main.9a92558f.js",
+    "main.css": "/Rick-Morty_Tribute/static/css/main.6e1bbb17.css",
+    "main.js": "/Rick-Morty_Tribute/static/js/main.89d01f85.js",
     "index.html": "/Rick-Morty_Tribute/index.html",
-    "main.bdd3624d.css.map": "/Rick-Morty_Tribute/static/css/main.bdd3624d.css.map",
-    "main.9a92558f.js.map": "/Rick-Morty_Tribute/static/js/main.9a92558f.js.map"
+    "main.6e1bbb17.css.map": "/Rick-Morty_Tribute/static/css/main.6e1bbb17.css.map",
+    "main.89d01f85.js.map": "/Rick-Morty_Tribute/static/js/main.89d01f85.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdd3624d.css",
-    "static/js/main.9a92558f.js"
+    "static/css/main.6e1bbb17.css",
+    "static/js/main.89d01f85.js"
   ]
 }
