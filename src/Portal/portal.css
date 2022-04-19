@@ -1,11 +1,13 @@
 .portal{height: 100px;
-width: 99.5%;
+width: 100%;
 background: linear-gradient(90deg,rgb(230, 230, 0), rgb(255, 51, 0), rgb(230, 230, 0));
 display: flex;
 justify-content: center;
 align-items: center;
-color: white;
-position: fixed;
 border: 2px solid black;
 box-shadow: 0px 2px 10px black;
+z-index: 10;
+padding-top: 10px;
 }
+
+.title{color:white; font-size: 40px;}

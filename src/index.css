@@ -9,3 +9,10 @@ body {
 
 
 
+#portalDiv{display: grid;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+   place-items: center;
+   z-index: 10;
+}

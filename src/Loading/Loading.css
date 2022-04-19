@@ -10,6 +10,8 @@
 .loadingDiv{
     width: 200px;
     height:200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     background: linear-gradient(90deg, rgb(255, 124, 2) 42%,white,rgb(255, 124, 2) 58%);
     animation-name: movingBackground;
     animation-duration: 1s;

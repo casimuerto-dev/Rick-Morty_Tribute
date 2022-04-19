@@ -1,0 +1,7 @@
+.antButton{
+    border-radius: 20px !important;
+    width: 100px;
+    height:25px;
+}
+
+.antButton:hover{background-color: red; }
