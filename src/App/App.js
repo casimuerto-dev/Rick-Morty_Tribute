@@ -9,7 +9,6 @@ import { Portal } from "../Portal/Portal";
 import { Loading } from "../Loading/Loading";
 import { Info } from "../CharacterInfo/Info";
 import { newContext } from "../newContext/newContext";
-import { AntButton } from "../AntButton";
 import { MainImage } from "../MainImage";
 import { CharacterImage } from "../CharacterInfo/CharacterImage";
 import { URL, characterNames, initialState } from "./constants";
@@ -29,62 +28,15 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ height: "50px" }}></div>
+      <div style={{ height: "50px" }} />
+
       <MainImage />
 
-      <h2 style={{ color: "white", marginTop: "35px" }}>Choose a suspect!</h2>
+      <h2 style={{ color: "white", marginTop: "35px", marginBottom: "35px" }}>
+        Choose a Suspect!
+      </h2>
 
-      <SelectionContainer>
-        <AntButton
-          type="primary"
-          loading={state.loading}
-          onClick={() => {
-            dispatch({ type: "Rick" });
-          }}
-        >
-          Rick
-        </AntButton>
-
-        <AntButton
-          type="primary"
-          loading={state.loading}
-          onClick={() => {
-            dispatch({ type: "Morty" });
-          }}
-        >
-          Morty
-        </AntButton>
-
-        <AntButton
-          type="primary"
-          loading={state.loading}
-          onClick={() => {
-            dispatch({ type: "Summer" });
-          }}
-        >
-          Summer
-        </AntButton>
-
-        <AntButton
-          type="primary"
-          loading={state.loading}
-          onClick={() => {
-            dispatch({ type: "Beth" });
-          }}
-        >
-          Beth
-        </AntButton>
-
-        <AntButton
-          type="primary"
-          loading={state.loading}
-          onClick={() => {
-            dispatch({ type: "Jerry" });
-          }}
-        >
-          Jerry
-        </AntButton>
-      </SelectionContainer>
+      <SelectionContainer loading={state.loading} dispatch={dispatch} />
 
       <h2 style={{ color: "white", marginTop: "25px" }}>Known Information:</h2>
 
