@@ -27,7 +27,8 @@ padding-top: 5px;
 border: 2px solid black;
 }
 .writtenInfo:hover{width: 200px;
-font-size: 18px;}
+font-size: 18px;
+cursor: default;}
 
 .characterImage{max-width: 200px;
     box-shadow: 0px 0px 10px black;

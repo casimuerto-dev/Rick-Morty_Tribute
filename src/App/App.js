@@ -73,6 +73,16 @@ function App() {
       <Portal>
         <h1 className="title">Rick and Morty Tribute!</h1>
       </Portal>
+      <h6 style={{ fontSize: "15px" }}>
+        Thanks to{" "}
+        <a
+          style={{ textDecoration: "none", color: "white" }}
+          href="https://rickandmortyapi.com/"
+          target="_blank"
+        >
+          RickAndMortyAPI.com
+        </a>
+      </h6>
     </div>
   );
 }
