@@ -1,10 +1,10 @@
-.selectionContainer{background-color: white;
+.selectionContainer{background: linear-gradient(90deg,rgb(230, 230, 0), rgb(255, 51, 0), rgb(230, 230, 0));
     width: 99.5%;
     height: 50px;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-border: 2px solid black;
+border: 1px solid white;
 }
 
 

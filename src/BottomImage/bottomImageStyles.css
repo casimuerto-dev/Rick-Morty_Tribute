@@ -1,0 +1,44 @@
+
+
+.bottomDiv{width: 100%;
+    display: block;
+    background-repeat:no-repeat;
+    background-size:cover;
+   
+    background: url("https://cdn.pixabay.com/photo/2017/09/20/00/45/wallpaper-2767138_1280.png") no-repeat;
+    background-size: 110%;
+    background-position: center top;
+    margin-bottom: 10px;
+    overflow: hidden;    
+
+}
+
+
+
+@keyframes slide{
+from{margin-left: -20%; opacity:0;}
+20%{opacity: 1;}
+
+45%{opacity: 1;}
+
+80%{opacity: 1;}
+
+to{margin-left: 110%; opacity: 0;}
+}
+
+
+.bottomImage{
+max-width: 300px;
+border-radius: 20px;
+animation: slide;
+animation-duration: 15s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+}
+.bottomImage:hover{
+box-shadow: 0px 0px 30px white;
+
+
+
+}

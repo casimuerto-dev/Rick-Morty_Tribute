@@ -1,6 +1,6 @@
 import "./App.css";
 import { apiCall } from "../apiCall/apiCall";
-import React, { useReducer } from "react";
+import React, { useReducer, useState } from "react";
 import { SelectionContainer } from "../CharacterSelection/SelectionContainer";
 import { CharacterInfo } from "../CharacterInfo/CharacterInfo";
 import { WrittenInfo } from "../CharacterInfo/WrittenInfo";
@@ -12,9 +12,11 @@ import { newContext } from "../newContext/newContext";
 import { MainImage } from "../MainImage";
 import { CharacterImage } from "../CharacterInfo/CharacterImage";
 import { URL, characterNames, initialState } from "./constants";
+import { BottomImage } from "../BottomImage";
 
 function App() {
   const [state, dispatch] = useReducer(Reducer, initialState);
+  const [stage, setStage] = useState(true);
 
   React.useEffect(() => {
     if (state.name !== "") {
@@ -28,9 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ height: "50px" }} />
-
-      <MainImage />
+      <MainImage id="top" stage={stage} />
 
       <h2 style={{ color: "white", marginTop: "35px", marginBottom: "35px" }}>
         Choose a Suspect!
@@ -70,15 +70,31 @@ function App() {
           </WrittenInfo>
         </newContext.Provider>
       </CharacterInfo>
+
       <Portal>
         <h1 className="title">Rick and Morty Tribute!</h1>
       </Portal>
+      {state.selected && (
+        <BottomImage
+          onClick={() => setStage((stage) => !stage)}
+          stage={stage}
+        />
+      )}
+      <hr
+        style={{
+          border: "1px solid white",
+          width: "99%",
+          marginBottom: "5px",
+          marginTop: "20px",
+        }}
+      />
       <h6 style={{ fontSize: "15px" }}>
         Thanks to{" "}
         <a
           style={{ textDecoration: "none", color: "white" }}
           href="https://rickandmortyapi.com/"
           target="_blank"
+          rel="noreferrer"
         >
           RickAndMortyAPI.com
         </a>

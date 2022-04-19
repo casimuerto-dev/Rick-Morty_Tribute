@@ -2,6 +2,8 @@
     border-radius: 20px !important;
     width: 100px;
     height:25px;
+    background-color: rgb(235, 34, 151) !important;
+    border: none !important;
 }
 
 .antButton:hover{background-color: red; }
