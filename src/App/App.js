@@ -13,6 +13,7 @@ import { MainImage } from "../MainImage";
 import { CharacterImage } from "../CharacterInfo/CharacterImage";
 import { URL, characterNames, initialState } from "./constants";
 import { BottomImage } from "../BottomImage";
+import { TopBar } from "../gh-pages/TopBar/TopBar";
 
 function App() {
   const [state, dispatch] = useReducer(Reducer, initialState);
@@ -30,6 +31,8 @@ function App() {
 
   return (
     <div className="App">
+      {/* gh-pages only */}
+      {/* <TopBar /> */}
       <MainImage id="top" stage={stage} />
 
       <h2 style={{ color: "white", marginTop: "35px", marginBottom: "35px" }}>

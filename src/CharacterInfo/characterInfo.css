@@ -39,5 +39,15 @@ cursor: default;}
     border: 2px solid white;
     }
     
-.characterInfoDescript{color:red};
+.characterInfoDescript{color:red}
     
+@media(max-width:819px){
+.characterInfo{width: 300px;}
+.characterImage{width: 150px;}
+.writtenInfo{width: 120px; height: 180px; font-size: 10px;}
+.writtenInfo:hover{
+    width: 120px;
+    font-size: 12px !important;
+    cursor: default;}
+}
+

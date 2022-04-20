@@ -1,0 +1,12 @@
+.topBar{background: linear-gradient(90deg,rgb(230, 230, 0), rgb(255, 51, 0), rgb(230, 230, 0));
+width: 100%;
+min-height: 100px;
+margin-top: -50px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 2px 10px white;
+margin-bottom: 30px;}
+
+.mainTitle{color: white; font-size: 40px;padding-top: 10px; text-align: center;}
+

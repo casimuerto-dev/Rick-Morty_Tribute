@@ -6,4 +6,8 @@
     border: none !important;
 }
 
-.antButton:hover{background-color: red; }
+.antButton:hover{background-color: rgb(255, 0, 128) !important; }
+
+@media(max-width:819px){
+    .antButton{width: 70px; font-size: 9px !important; height: 18px !important; padding-bottom: 18px !important;}
+}

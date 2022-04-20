@@ -20,4 +20,7 @@
     border: 2px solid white;
 }
 
+@media(max-width:819px){
+    .loadingDiv{width: 150px; height: 150px;}
+}
 
